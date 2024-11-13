@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Asma</span> Yaseen</a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+        </nav>
+        <a href="#contact" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Asma Yaseen<br><span>a Student of GIAIC</span></span></h1>
+            <p>I may be new to this field, but I bring a passion for learning and a commitment to growing my skills. I'm here to take on new challenges and make the most of every opportunity to learn and improve.</p>
+            <div class="btn-box">
+                <button class="btn-1" onclick="location.href='#contact'">Hire Me</button>  
+                <button class="btn-2" onclick="location.href='#projects'">Experience</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="image/images28529282229.jpeg" alt="Asma Yaseen">
+        </div>
+    </section>
+  
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="image/images28529282229.jpeg" alt="About Me">
+        </div>
+        <div class="about-container">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Student of <span>GIAIC</span></h3>
+            <p>I'm a student at GIAIC, pursuing a course in Artificial Intelligence, Web 3.0, & Metaverse. Passionate about technology and constantly learning new skills to stay up-to-date with the latest innovations.</p>
+            <a href="#projects" class="btn-2">Experience</a>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="skills-img">
+            <img src="image/images28529282229.jpeg" alt="Skills">
+        </div>
+        <div class="skills-container">
+            <h2 class="heading">About <span>skills</span></h2>
+            
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>TypeScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="project">
+        <div class="project-img">
+            <img src="image/images28529282229.jpeg" alt="Projects">
+        </div>
+        <div class="project-container">
+            <h2 class="heading">About <span>Projects</span></h2>
+            <h3>1: Animated login page</h3>
+            <p> 
+                I've designed an animated login page that combines modern aesthetics with user-friendly functionality. The engaging animations and vibrant visuals create a delightful experience for users as they access their accounts.</p>
+            <a href="https://github.com/Asmayaseen/Animated-login-page.git" target="_blank">View Project</a>
+            <h3>2: Analog clock</h3>
+            <p> I've created an analog clock using HTML and CSS, showcasing a sleek design that beautifully represents time. Its smooth movement and minimalist aesthetic make it an elegant addition to any webpage.</p>
+            <a href="https://github.com/Asmayaseen/Analog-clock.git" target="_blank">View Project</a>
+            <h3>3: Digital clock</h3>
+            <p>I created a digital clock using HTML and CSS, showcasing the current time in a sleek and modern design. This project highlights my skills in web development and enhances the user experience with a clean interface.</p>
+            <a href="https://github.com/Asmayaseen/digital-clock.git" target="_blank">View Project</a>
+            
+        </div>
+    </section>
+    
+    
+    <section id="education" class="education">
+        <div class="education-img">
+            <img src="image/images28529282229.jpeg" alt="Education">
+        </div>
+        <div class="education-container">
+            <h2 class="heading">About <span>Education</span></h2>
+            <h3>Matriculation:</h3>
+            <p>Rounaq-e-Islam Girls Secondary School, Karachi, Year of Matric 2000</p>
+            <h3>Intermediate:</h3>
+            <p>Islamia College for Women, Karachi, Year of Inter 2002</p>
+            <h3>Graduated:</h3>
+            <p>Islamia College for Women, Karachi, Year of Graduation 2004</p>
+        </div>    
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Subject" required>
+            </div>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+    <footer class="footer">
+     
+        <div class="social">
+            <a href="https://github.com/yourusername" class="icon" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yourusername" class="icon" target="_blank">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+        </div>
+        
+        <ul class="list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">© 2024 Asma Yaseen | All Rights Reserved</p>
+       
+    </footer>
+</body>
+</html>
+
+
+
+
+
